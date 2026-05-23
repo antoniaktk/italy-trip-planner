@@ -1,0 +1,83 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f3eadf;color:#130f0b}.page{max-width:1380px;margin:0 auto;padding:34px 20px}.magHero{min-height:560px;border-radius:42px;overflow:hidden;background-size:cover;background-position:center;display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:end;padding:38px;margin-bottom:24px;box-shadow:0 30px 80px rgba(27,18,10,.18)}.heroEditorial{color:#fff;max-width:780px}.heroEditorial h1{font-size:clamp(56px,10vw,132px);line-height:.82;letter-spacing:-.09em;margin:8px 0 18px}.heroEditorial p{font-size:20px;line-height:1.45;color:rgba(255,255,255,.82);max-width:720px}.kicker{margin:0;text-transform:uppercase;letter-spacing:.26em;font-size:12px;color:#8a7562}.kicker.light{color:rgba(255,255,255,.68)}.heroMeta{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.heroMeta span{padding:10px 13px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.12);backdrop-filter:blur(10px);font-weight:800}.countdownCard{background:rgba(255,255,255,.92);border-radius:30px;padding:24px;box-shadow:0 20px 50px rgba(0,0,0,.18)}.countdownCard span{color:#8a7562;font-weight:800;text-transform:uppercase;letter-spacing:.18em;font-size:12px}.countdownCard strong{display:block;font-size:76px;letter-spacing:-.08em;line-height:.9;margin:10px 0}.countdownCard small{display:block;color:#5f5146;margin-bottom:20px}.topBar{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.heroActions{display:flex;gap:10px;flex-wrap:wrap}h1{margin:6px 0 8px;font-size:clamp(38px,7vw,78px);line-height:.9;letter-spacing:-.07em}h2{margin:6px 0 0;font-size:30px;line-height:1;letter-spacing:-.05em}.lead{margin:0;max-width:760px;color:#5f5146}.status{color:#166534;font-size:13px;margin:0}button,.linkButton{border:1px solid #130f0b;background:#130f0b;color:white;border-radius:18px;padding:11px 15px;font-size:14px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}button:hover,.linkButton:hover{opacity:.84}.ghost{background:white;color:#130f0b;border-color:#d8cabb;padding:9px 11px}.danger{color:#7f1d1d;border-color:#fecaca}.currencyPanel,.budgetBreakdown,.timelineItem,.stat,.card,.setup,.mapSection,.panel{background:rgba(255,255,255,.9);border:1px solid #dfd1c2;border-radius:30px;box-shadow:0 16px 40px rgba(42,28,14,.07)}.currencyPanel{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding:22px;margin:0 0 24px}.currencyControls{display:flex;align-items:flex-end;gap:12px}.currencyControls label{min-width:160px}.timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:26px 0;width:100%}.timelineItem{min-height:400px;overflow:hidden;display:flex;flex-direction:column;min-width:0;position:relative;transition:transform .2s ease,box-shadow .2s ease}.timelineItem:hover{transform:translateY(-4px);box-shadow:0 24px 60px rgba(42,28,14,.12)}.timelineDrag{position:absolute;z-index:2;top:12px;left:12px;background:rgba(255,255,255,.9);border:1px solid #dfd1c2;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900;cursor:grab}.timelinePhoto{height:220px;background-size:cover;background-position:center;background-color:#e7ded4}.timelineBody{padding:20px;display:flex;flex-direction:column;gap:12px}.timelineTopline{display:flex;align-items:center;justify-content:space-between;gap:8px}.timelineDateStatic{color:#8a7562;font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-align:right}.timelineTitleStatic{color:#130f0b;font-size:30px;line-height:.95;font-weight:900;letter-spacing:-.06em}.timelineDescriptionStatic{color:#5f5146;font-size:15px;line-height:1.45}.statusPill{border-radius:999px;padding:7px 10px;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.status-plan{background:#f2ede6;color:#5f5146}.status-booked{background:#dbeafe;color:#1e3a8a}.status-paid{background:#dcfce7;color:#166534}.status-done{background:#130f0b;color:white}.mapSection{margin:12px 0 24px;padding:22px}.leafletWrap{overflow:hidden;border-radius:24px;border:1px solid #dfd1c2;margin-top:18px}.leafletMap{width:100%;height:450px}.mapEmpty{padding:40px;color:#8a7562}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0 24px;width:100%}.stat{padding:22px;min-height:160px}.statIcon{font-size:22px}.stat span,.budgetCell span{display:block;margin:12px 0 4px;font-size:13px;color:#8a7562}.stat strong,.budgetCell strong{font-size:34px;display:block;letter-spacing:-.05em}.stat small,.budgetCell small{display:block;margin-top:8px;color:#5f5146}.budgetBreakdown{padding:22px;margin:0 0 24px}.budgetGrid,.miniStats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}.budgetCell{background:#f3eadf;border-radius:22px;padding:15px}.twoCol{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 24px}.panel{padding:22px}.panelHeader{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:16px}.checklist,.budgetList{display:flex;flex-direction:column;gap:10px}.checkItem{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center}.budgetItem{display:grid;grid-template-columns:1.4fr 1fr .8fr auto auto;gap:8px;align-items:center}.paidLabel{flex-direction:row;align-items:center}.search{width:100%;max-width:560px;margin-bottom:18px}input,textarea,select{width:100%;border:1px solid #d8cabb;border-radius:16px;padding:11px 13px;font:inherit;background:white;color:#130f0b;outline:none}input:focus,textarea:focus,select:focus{border-color:#b89b7d;box-shadow:0 0 0 3px rgba(184,155,125,.22)}.cities{display:flex;flex-direction:column;gap:18px}.card{display:grid;grid-template-columns:330px 1fr;overflow:hidden}.card:hover{box-shadow:0 24px 60px rgba(42,28,14,.1)}aside{padding:22px;border-right:1px solid #dfd1c2}.hotelThumb{height:210px;border-radius:26px;background-size:cover;background-position:center;background-color:#e7ded4;margin-bottom:20px}.cardTop{display:flex;justify-content:space-between;gap:12px;margin-bottom:18px}small,label{color:#8a7562;font-size:13px}label{display:flex;flex-direction:column;gap:6px}.cityName{border:0;padding:0;border-radius:0;font-size:34px;font-weight:900;letter-spacing:-.065em;background:transparent;line-height:.95}aside label{margin-bottom:12px}.quickLinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.quickButton{border-radius:999px;padding:9px 13px;background:#130f0b;color:white;text-decoration:none;font-size:13px;font-weight:850;display:inline-flex;align-items:center}.quickButton.ghost{background:#f3eadf;color:#130f0b;border:1px solid #d8cabb}.nights{background:#f3eadf;border-radius:22px;padding:15px}.nights span{display:block;color:#8a7562;font-size:13px}.nights strong{display:block;margin-top:4px;font-size:28px}.content{padding:22px}.collapsedContent{display:flex;flex-direction:column;gap:12px}details{border:1px solid #dfd1c2;border-radius:22px;background:#fff;overflow:hidden}summary{cursor:pointer;padding:16px 18px;font-weight:900}details .fields{padding:0 18px 18px}.fields{display:flex;flex-direction:column;gap:12px}.geoGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.rowTitle{display:flex;align-items:center;justify-content:space-between;color:#8a7562;font-size:13px}.attractionRow{display:grid;grid-template-columns:1.2fr .7fr .5fr 1fr auto auto;gap:8px;align-items:center}.smallLink{color:#130f0b;font-weight:900}.setup{padding:24px}.loading{margin:20vh auto;text-align:center;font-size:22px;font-weight:900}@media(max-width:1200px){.magHero{grid-template-columns:1fr}.countdownCard{max-width:320px}.timeline{grid-template-columns:repeat(2,1fr)}.stats,.twoCol,.budgetGrid,.miniStats{grid-template-columns:repeat(2,1fr)}.budgetItem,.attractionRow{grid-template-columns:1fr}}@media(max-width:900px){.magHero{min-height:620px;padding:24px;border-radius:32px}.heroEditorial h1{font-size:64px}.currencyPanel{flex-direction:column;align-items:stretch}.card{grid-template-columns:1fr}.twoCol{grid-template-columns:1fr}aside{border-right:0;border-bottom:1px solid #dfd1c2}.leafletMap{height:320px}}@media(max-width:640px){.page{padding:14px 10px}.magHero{border-radius:26px}.timeline,.stats,.budgetGrid,.miniStats{grid-template-columns:1fr}.geoGrid{grid-template-columns:1fr}.heroMeta{display:none}.countdownCard strong{font-size:60px}.timelinePhoto{height:240px}}@media print{button,.search,.cities,.timelineDrag{display:none!important}body{background:white}.page{max-width:none;padding:0}.timeline,.stats,.twoCol{break-inside:avoid}}
+.automationGrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 24px}
+.automationCard,.routeSegments{background:rgba(255,255,255,.9);border:1px solid #dfd1c2;border-radius:30px;box-shadow:0 16px 40px rgba(42,28,14,.07);padding:22px}
+.routeSummary{display:flex;gap:14px;align-items:baseline;margin:18px 0}
+.routeSummary strong{font-size:42px;letter-spacing:-.06em}
+.routeSummary span,.muted{color:#5f5146}
+.automationCard textarea{min-height:110px;margin:12px 0}
+.routeSegments{margin:0 0 24px}
+.segmentList{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}
+.segment{background:#f3eadf;border-radius:22px;padding:15px}
+.segment span{display:block;font-weight:850}
+.segment strong{display:block;font-size:24px;margin-top:8px}
+.segment small{color:#5f5146}
+.weatherMini{background:#f3eadf;border-radius:20px;padding:14px;margin:0 0 12px}
+.weatherMini span{display:block;color:#8a7562;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.12em}
+.weatherMini strong{display:block;font-size:28px;letter-spacing:-.05em;margin-top:4px}
+.weatherMini small{color:#5f5146}
+.recommendations{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:0 18px 18px}
+.recommendation{background:#f3eadf;border-radius:18px;padding:14px;font-weight:750;color:#130f0b}
+@media(max-width:1000px){.automationGrid,.segmentList,.recommendations{grid-template-columns:1fr}}
+
+.smartPanel{background:rgba(255,255,255,.9);border:1px solid #dfd1c2;border-radius:30px;box-shadow:0 16px 40px rgba(42,28,14,.07);padding:22px;margin:0 0 24px}
+.alertGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+.alertCard{background:#f3eadf;border-radius:22px;padding:15px}
+.alertCard strong{display:block;margin-bottom:10px}
+.alertCard span{display:inline-flex;margin:3px 5px 3px 0;border-radius:999px;background:#fff1f2;color:#9f1239;padding:7px 10px;font-size:12px;font-weight:850}
+.alertCard em{color:#166534;font-style:normal;font-weight:850}
+.packingGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.packingItem{display:grid;grid-template-columns:auto 1.4fr .8fr auto;gap:8px;align-items:center;background:#f3eadf;border-radius:18px;padding:10px}
+.dayPlanRow{display:grid;grid-template-columns:.6fr .9fr 1.5fr .8fr auto;gap:8px;align-items:center}
+.restaurantRow{display:grid;grid-template-columns:1.2fr .8fr .5fr 1fr auto auto;gap:8px;align-items:center}
+.recommendation{border:0;text-align:left;justify-content:flex-start}
+@media(max-width:1100px){.alertGrid{grid-template-columns:repeat(2,1fr)}.packingGrid,.dayPlanRow,.restaurantRow{grid-template-columns:1fr}}
+@media(max-width:640px){.alertGrid{grid-template-columns:1fr}}
+
+.hint{margin:0;color:#8a7562;font-size:13px;line-height:1.4}
+.dayPlanRow{
+  display:grid;
+  grid-template-columns:90px 150px minmax(220px,1fr) 140px auto;
+  gap:8px;
+  align-items:center;
+}
+.dayPlanRow input,
+.dayPlanRow select{
+  min-height:44px;
+}
+@media(max-width:900px){
+  .dayPlanRow{grid-template-columns:1fr}
+}
+
+.heroImagePanel{
+  display:grid;
+  grid-template-columns:280px 1fr;
+  gap:18px;
+  align-items:stretch;
+  background:rgba(255,255,255,.9);
+  border:1px solid #dfd1c2;
+  border-radius:30px;
+  box-shadow:0 16px 40px rgba(42,28,14,.07);
+  padding:22px;
+  margin:0 0 24px;
+}
+.heroImagePreview{
+  min-height:180px;
+  border-radius:24px;
+  background-size:cover;
+  background-position:center;
+  background-color:#e7ded4;
+}
+.heroImageControls{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:16px;
+}
+@media(max-width:900px){
+  .heroImagePanel,
+  .heroImageControls{
+    grid-template-columns:1fr;
+  }
+}
+
+.countryBadge{display:inline-flex;border-radius:999px;background:#f3eadf;color:#8a7562;padding:7px 10px;font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.08em}

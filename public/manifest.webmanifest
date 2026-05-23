@@ -1,0 +1,15 @@
+{
+  "name": "Italy Trip Planner",
+  "short_name": "Italy Trip",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3eadf",
+  "theme_color": "#130f0b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
